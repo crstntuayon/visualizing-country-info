@@ -89,7 +89,7 @@ function App() {
              
            
              
-            <Title subTitle='WORLD EXPLORATION' title='Lets explore different countries in the world...'/>
+            <Title subTitle='WORLD EXPLORATION' title='Lets explore different countries in the world... [Click flag-icon]'/>
             <Flag></Flag>
             
             <Title subTitle='Visualized Country Information' title=''/>
