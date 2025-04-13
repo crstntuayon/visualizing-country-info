@@ -87,7 +87,7 @@ function App() {
             From population stats to currency details, our country-information-visualizer website
             delivers it all—fast, reliable, and always up-to-date.</p>
              
-
+           
              
             <Title subTitle='WORLD EXPLORATION' title='Lets explore different countries in the world...'/>
             <Flag></Flag>
@@ -98,7 +98,8 @@ function App() {
           <p className="text-center">
             <strong>Loading country's data...</strong>
           </p>
-        ) : (
+        ) :  []} (
+          
           <>
             {currentCountry ? (
               <CountryDetails
@@ -117,7 +118,7 @@ function App() {
               </ul>
             )}
           </>
-        )}
+        )
       </div>
       <Footer className="footer-fixed" />
     </>

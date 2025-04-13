@@ -34,13 +34,13 @@ function Header({ onSearch, onFilter, className }) {
             <input
               className="form-control me-2"
               type="search"
-              placeholder="Search"
+              placeholder="Search countries"
               aria-label="Search"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
             />
             <button className="btn custom-btn" type="submit">
-              <i className="fas fa-search"></i>
+            <i class="fa fa-search" ></i>
             </button>
           </form>
           <DropdownButton
