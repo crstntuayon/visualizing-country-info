@@ -7,6 +7,9 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Title from "./Components/Title/Title"
+import Flag from "./Components/Flags/Flag"
+
+
 
 function App() {
   const [countries, setCountries] = useState([]);
@@ -79,12 +82,18 @@ function App() {
       
       <div className="hero-text">
         
-        <h1 className="hero">Empowering Your Apps with Global Knowledge.</h1>
-           <p className="paragraph">Effortless access to accurate, country-specific data 
-            to power your apps. From population stats to currency details, our free API 
+        <h1 className="hero">Empower Your Global Knowledge.</h1>
+           <p className="paragraph">Effortless access to accurate, country-specific data. 
+            From population stats to currency details, our country-information-visualizer website
             delivers it all—fast, reliable, and always up-to-date.</p>
-     
+             
+
+             
             <Title subTitle='WORLD EXPLORATION' title='Lets explore different countries in the world...'/>
+            <Flag></Flag>
+            
+            <Title subTitle='Visualized Country Information' title=''/>
+
         {loading ? (
           <p className="text-center">
             <strong>Loading country's data...</strong>
