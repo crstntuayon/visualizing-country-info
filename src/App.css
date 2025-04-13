@@ -53,9 +53,10 @@ img {
 
 /* Header */
 .header-fixed {
-  background-color: #102a59;
+  background-color: black;
+  height: 80px;
   color: #ffffff;
-  border-bottom: 2px solid #264a7c;
+  border-bottom: 2px solid black;
 }
 
 /* Style for the search icon */
@@ -70,7 +71,8 @@ img {
 
 
 .footer-fixed {
-  background-color: #102a59;
+  background-color: black;
+  height: 40px;
   position: fixed !important;
   bottom: 0;
   left: 0;
@@ -82,17 +84,21 @@ img {
 }
 
 .footer-fixed a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #0077cc;
+  font-size: 10px;
 }
+
 
 /* Links */
 .footer-fixed a, a {
   color: #aad8ff;
+  text-decoration: none;
 }
 
 .footer-fixed a:hover, a:hover {
   color: #ffffff;
+  
 }
 
 /* Inputs and buttons */

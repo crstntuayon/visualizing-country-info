@@ -6,6 +6,7 @@ import CountryDetails from "./Components/CountryDetails";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Title from "./Components/Title/Title"
 
 function App() {
   const [countries, setCountries] = useState([]);
@@ -79,11 +80,11 @@ function App() {
       <div className="hero-text">
         
         <h1 className="hero">Empowering Your Apps with Global Knowledge.</h1>
-           <p className="paragraph">Effortless access accurate, country-specific data 
+           <p className="paragraph">Effortless access to accurate, country-specific data 
             to power your apps. From population stats to currency details, our free API 
             delivers it all—fast, reliable, and always up-to-date.</p>
-
-            
+     
+            <Title subTitle='WORLD EXPLORATION' title='Lets explore different countries in the world...'/>
         {loading ? (
           <p className="text-center">
             <strong>Loading country's data...</strong>
